@@ -20,7 +20,6 @@ public class Jeu
                 Joueur1.aUnEnnemiProche(listeEnnemis);
             }
         }
-
        
     }
 }
