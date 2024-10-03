@@ -4,13 +4,18 @@ public class Main
     {
         int []array = {1, 2, 3, 4, 5};
         MyArray myArray = new MyArray(array);
-        System.out.println(myArray.getSize());
-        System.out.println(myArray.getElement(2));
-        //myArray.pushBack(6);
-        //myArray.pushFront(0);
+        myArray.printArray();
+        System.out.println("Size : " + myArray.getSize());
+        System.out.println("Nombre d'elements: " + myArray.getNbElements());
+        System.out.println("Index 2 : " + myArray.getElement(2));
+        myArray.printArray();
+        myArray.pushBack(6);
+        myArray.pushFront(0);
+        myArray.printArray();
         myArray.newPushBack(6);
         myArray.newPushFront(0);
-        System.out.println(myArray.getElement(0));
-        System.out.println(myArray.getElement(5));
+        System.out.println("Size : " + myArray.getSize());
+        System.out.println("Nombre d'elements: " + myArray.getNbElements());
+        myArray.printArray();
     }
 }
