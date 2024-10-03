@@ -20,19 +20,19 @@ public class Calc
         return resultat;
     }
 
-    // Méthode pour la somme de deux nombres
+    // Méthode pour la fonction de deux nombres
     public double f(double a, double b) 
     {
         return fonction(a, b);
     }
 
-    // Méthode pour la somme de trois nombres
+    // Méthode pour la fonction de trois nombres
     public double f(double a, double b, double c) 
     {
         return fonction(a, b, c);
     }
 
-    // Méthode pour la somme de quatre nombres
+    // Méthode pour la fonction de quatre nombres
     public double f(double a, double b, double c, double d) 
     {
         return fonction(a, b, c, d);
